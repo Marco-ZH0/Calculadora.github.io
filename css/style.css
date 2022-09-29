@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./img/fondo1.gif');
+    background-size: cover;
+}
+
+.contenedor{
+    width:900px;
+    height: 450px;
+    margin: 20px auto;
+    background-color: darkgray;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+
+form p{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]{
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type="number"]{
+    width: 30%;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 30px;
+    width: 40%;
+    background-color: black;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn:active{
+    background-color: rgb(66, 66, 66);
+}
+
+#signo{
+    font-size: 30px;
+}
+
+#signor{
+    font-size: 30px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.limpiar{
+    background-color: darkgray;
+    border: none;
+    margin-top: -500px;
+     margin-bottom: 100px;
+    margin-left: 1070px;
+    cursor: pointer;
+}

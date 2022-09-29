@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Danira,Yuniel,Ivan,Marco,Antonio">
+    <meta name="keywords" content="calculadora,suma,resta,multiplicación,divición">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shourtcut icon" href="./img/calculadora.ico">
+    <title>Cakculadora</title>
+</head>
+<body>   
+    <div class="contenedor">
+        <form action="">
+            <h1>CALCULADORA</h1>
+            <input type="number" value="" onkeyup="this.value=Numeros(this.value)" id="numero1" placeholder="Ingresa el numero 1">
+            <label id="signo"></label>
+            <input type="number" id="numero2" placeholder="Ingresa el numero 2">
+            <label id="signor"></label>
+            <input type="text" id="resultado" placeholder="" readonly>
+            <input type="button" value="Suma" class="btn" onclick="suma()">
+            <input type="button" value="Resta" class="btn" onclick="resta()">
+            <input type="button" value="Multiplicacion" class="btn" onclick="multiplicacion()">
+            <input type="button" value="Divicion" class="btn" onclick="divicion()">
+        </form>
+    </div>
+    <input type="image" src="./img/limpiar.png" alt="" width="120" height="120" class="limpiar" id="borrar" onclick="borrar()">
+</body>
+    <script src="js/script.js"></script>
+</html>
